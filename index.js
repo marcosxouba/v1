@@ -585,21 +585,20 @@ _*Recuerda leer las normas de la descripción.*_
   ────────────────
   〘 *BOT* 〙
   ‣ Prefijo:  *「 ${prefix} 」*
-  ‣ Yo soy: 𝕸𝖗.𝕻𝖆𝖙𝖔 -𝕭𝖔𝖙⚜️🦆
+  ‣ Somos: L̴͕̰̠̤̃̒̒ḛ̵̠̟̠͆̓̎n̴̘͈͊͛͗͝a̶̛͓͊ A̵n̴o̶n̷y̶m̸i̶s̴s̶
+            ☦⪻̤̈N̴͖e̵͠b̷̛̈́á̴̬̌l̶͐́o̸͡⪼̤̈☦
+⠀⠀⠀   ⠀   ☦⪻̤̈M̸̞̱̜͒̈͑̐̈́̇•̴̻̖̼͓͈̀̈́̈̓̍̔̚ͅT̴̤̩̀͑̄͗̒͑̕ḩ̸͇͔̑͒́͌̄e̷̙̱̎•̷̔̓̉̽̑̕̕H̶͔̰͑å̷͙̹̾͝͝ť̵̎͐́̏̒̈ë̶̛͖͓̙͎́́ṛ̷̊̊⪼̤̈☦̤̈
   ‣ Conección: *Baileys*
   ‣ Tiempo encencido: *${kyun(uptime)}*
   ‣ Modo: *ON*
   ‣ Grupo:  *${groupName}*
   ‣ Número de grupos: *${_registered.length}*
   ‣ Número de chats: *${totalchat.length}*
-  ‣ Grupo oficial
-  • _${Wa1}_
-  ‣ Suscribete
-  _${Ig}_
-  ────────────────
-  ┏━━━━━━━━━━━━━━━━━━━━
-  ┃─〘 BOT ACTIVOS 24/7 〙─
-  ┃━━━━━━━━━━━━━━━━━━━━
+ 
+ 
+  ┏━━━━━━━━━━━━━━━━━━━
+  ┃─〘BOT ACTIVOS 24/7〙─
+  ┃━━━━━━━━━━━━━━━━━━━
   ┠⊷️ *${prefix}Simi (Teks)*
   ┃ _Simsimi Chat_
   ┠⊷️ *${prefix}Info*
@@ -610,12 +609,12 @@ _*Recuerda leer las normas de la descripción.*_
   ┃ _Información de donasión_
   ┠⊷️ *${prefix}Ping*
   ┃ _Velocidad_
-  ┗━━━━━━━━━━━━━━━━━━━━
-  ┏━━━━━━━━━━━━━━━━━━━━
-  ┃─〘  *MENÚ* 〙─
-  ┗━━━━━━━━━━━━━━━━━━━━
+  ┗━━━━━━━━━━━━━━━━━━━
+  ┏━━━━━━━━━━━━━━━━━━━
+  ┃─〘 *MENÚ* 〙─
+  ┗━━━━━━━━━━━━━━━━━━━
   *〘 GRUPO 〙*
-  ┏━━━━━━━━━━━━━━━━━━━━
+  ┏━━━━━━━━━━━━━━━━━━━
   ┠⊷️ *${prefix}Listadmin*
   ┃ _Lista de los admin_
   ┠⊷️ *${prefix}Listonline*
@@ -648,9 +647,9 @@ _*Recuerda leer las normas de la descripción.*_
   ┃ _On/off Bienvenida_
   ┠⊷️ *${prefix}Delete*
   ┃ _Eliminar mensaje del bot_
-  ┗━━━━━━━━━━━━━━━━━━━━
+  ┗━━━━━━━━━━━━━━━━━━━
   *〘 DIVERSIÓN 〙*
-  ┏━━━━━━━━━━━━━━━━━━━━
+  ┏━━━━━━━━━━━━━━━━━━━
   ┠⊷️ *${prefix}Alay (Texto)*
   ┃ _Font Alay_
   ┠⊷️ *${prefix}Alay2 (Texto)*
@@ -679,9 +678,9 @@ _*Recuerda leer las normas de la descripción.*_
   ┃ _Mencionarte_
   ┠⊷️ *${prefix}Fitnah (Menciona a la persona|texto1|texto2)*
   ┃ _Mensaje falso de una persona_
-  ┗━━━━━━━━━━━━━━━━━━━━
+  ┗━━━━━━━━━━━━━━━━━━━
   *〘 MEDIA 〙*
-  ┏━━━━━━━━━━━━━━━━━━━━
+  ┏━━━━━━━━━━━━━━━━━━━
   ┠⊷️ *${prefix}listvn*
   ┃ _Lista de sonidos_
   ┠⊷️ *${prefix}listimg*
@@ -690,18 +689,18 @@ _*Recuerda leer las normas de la descripción.*_
   ┃ _Lista de sticker_
   ┠⊷️ *${prefix}listvid*
   ┃ _Lista de videos_
-  ┗━━━━━━━━━━━━━━━━━━━━
+  ┗━━━━━━━━━━━━━━━━━━━
   *〘 EDICIÓN 〙*
-  ┏━━━━━━━━━━━━━━━━━━━━
+  ┏━━━━━━━━━━━━━━━━━━━
   ┠⊷️ *${prefix}Gtav (Foto)*
   ┃ _Convierte foto al estilo Gtav_
   ┠⊷️ *${prefix}Wanted (Foto)*
   ┃ _Convierte foto al estilo wanted_
   ┠⊷️ *${prefix}Drawing (Foto)*
   ┃ _Convierte foto a dibujo_
-  ┗━━━━━━━━━━━━━━━━━━━━
+  ┗━━━━━━━━━━━━━━━━━━━
   *〘 ANIME 〙*
-  ┏━━━━━━━━━━━━━━━━━━━━
+  ┏━━━━━━━━━━━━━━━━━━━
   ┠⊷️ *${prefix}Kusonime (Nombre)*
   ┃ _Información de animes_
   ┠⊷️ *${prefix}Neonime (Nombre)*
@@ -716,9 +715,9 @@ _*Recuerda leer las normas de la descripción.*_
   ┃ _Imagen aleatoria de loli_
   ┠⊷️ *${prefix}Neko*
   ┃ _Imagen aleatoria de neko_
-  ┗━━━━━━━━━━━━━━━━━━━━
+  ┗━━━━━━━━━━━━━━━━━━━
   *〘 JUEGOS 〙*
-  ┏━━━━━━━━━━━━━━━━━━━━
+  ┏━━━━━━━━━━━━━━━━━━━
   ┠⊷️ *${prefix}Tebakgambar*
   ┃ _Adivinanza de imagen_
   ┠⊷️ *${prefix}Caklontong*
@@ -727,23 +726,23 @@ _*Recuerda leer las normas de la descripción.*_
   ┃ _Porcentaje de gay_
   ┠⊷️ *${prefix}Seberapabucin (Nombre)*
   ┃ _Porcentaje de bucin_
-  ┗━━━━━━━━━━━━━━━━━━━━
+  ┗━━━━━━━━━━━━━━━━━━━
   *〘 TOD 〙*
-  ┏━━━━━━━━━━━━━━━━━━━━
+  ┏━━━━━━━━━━━━━━━━━━━
   ┠⊷ *${prefix}Truth*
   ┠⊷ *${prefix}Dare*
-  ┗━━━━━━━━━━━━━━━━━━━━
+  ┗━━━━━━━━━━━━━━━━━━━
   *〘 KERANG AJAIB 〙*
-  ┏━━━━━━━━━━━━━━━━━━━━
+  ┏━━━━━━━━━━━━━━━━━━━
   ┠⊷ *${prefix}Apakah (Texto)*
   ┠⊷ *${prefix}Bisakah (Texto)*
   ┠⊷ *${prefix}Kapankah (Texto)*
   ┠⊷ *${prefix}Rate (Texto)*
   ┠⊷ *${prefix}Gantengcek (Texto)*
   ┠⊷ *${prefix}Cantikcek (Texto)*
-  ┗━━━━━━━━━━━━━━━━━━━━
+  ┗━━━━━━━━━━━━━━━━━━━
   *〘 HERRAMIENTAS 〙*
-  ┏━━━━━━━━━━━━━━━━━━━━
+  ┏━━━━━━━━━━━━━━━━━━━
   ┠⊷️ *${prefix}Tomp3*
   ┃ _Audio de video_
   ┠⊷️ *${prefix}Play (Nombre)*
@@ -760,14 +759,14 @@ _*Recuerda leer las normas de la descripción.*_
   ┠⊷️ *${prefix}Ocr*
   ┃ _Texto en imagen_
   ┠⊷️ *${prefix}Wait*
-  ┗━━━━━━━━━━━━━━━━━━━━
+  ┗━━━━━━━━━━━━━━━━━━━
   *〘 TEXT0 〙*
-  ┏━━━━━━━━━━━━━━━━━━━━
+  ┏━━━━━━━━━━━━━━━━━━━
   ┠⊷️ *${prefix}Tahta (Texto)*
   ┃ _Ex : ${prefix}Tahta Mr.pato_
-  ┗━━━━━━━━━━━━━━━━━━━━
+  ┗━━━━━━━━━━━━━━━━━━━
   *〘 TEXTO2 〙*
-  ┏━━━━━━━━━━━━━━━━━━━━
+  ┏━━━━━━━━━━━━━━━━━━━
   ┠⊷️ *${prefix}Ephoto list*
   ┃ _Lista de ephoto_
   ┠⊷️ *${prefix}Ephoto (code + Texto)*
@@ -776,9 +775,9 @@ _*Recuerda leer las normas de la descripción.*_
   ┃ _Lista de textpro
   ┠⊷️ *${prefix}Textpro (code + Texto)*
   ┃ _Ex : ${prefix}Textpro 55 Mr.pato_
-  ┗━━━━━━━━━━━━━━━━━━━━
+  ┗━━━━━━━━━━━━━━━━━━━
   *〘 IMAGENES 〙*
-  ┏━━━━━━━━━━━━━━━━━━━━
+  ┏━━━━━━━━━━━━━━━━━━━
   ┠⊷️ *${prefix}Cogan*
   ┃ _Foto aleatoria de un hombre_
   ┠⊷️ *${prefix}Cecan*
@@ -797,9 +796,9 @@ _*Recuerda leer las normas de la descripción.*_
   ┃ _Imagen_
   ┠⊷️ *${prefix}Google (Texto)*
   ┃ _Buscar cosas en google_
-  ┗━━━━━━━━━━━━━━━━━━━━
+  ┗━━━━━━━━━━━━━━━━━━━
   *〘 EDUCACIÓN 〙*
-  ┏━━━━━━━━━━━━━━━━━━━━
+  ┏━━━━━━━━━━━━━━━━━━━
   ┠⊷️ *${prefix}Brainly (Pregunta)*
   ┃ _Buscar cosas_
   ┠⊷️ *${prefix}Wiki (Pregunta)*
@@ -814,9 +813,9 @@ _*Recuerda leer las normas de la descripción.*_
   ┃ _Codigo de idioma_
   ┠⊷️ *${prefix}Kodenegara*
   ┃ _Codigo de país_
-  ┗━━━━━━━━━━━━━━━━━━━━
+  ┗━━━━━━━━━━━━━━━━━━━
   *〘 OTRO 〙*
-  ┏━━━━━━━━━━━━━━━━━━━━
+  ┏━━━━━━━━━━━━━━━━━━━
   ┠⊷️ *${prefix}Lirik (Nombre)*
   ┃ _Letra de canciones_
   ┠⊷️ *${prefix}Chord (Nombre)*
@@ -831,9 +830,9 @@ _*Recuerda leer las normas de la descripción.*_
   ┃ _Noticias falsas_
   ┠⊷️ *${prefix}Gplaystore*
   ┃ _Busqueda en playstore_
-  ┗━━━━━━━━━━━━━━━━━━━━
+  ┗━━━━━━━━━━━━━━━━━━━
   *〘 HORÓSCOPO 〙*
-  ┏━━━━━━━━━━━━━━━━━━━━
+  ┏━━━━━━━━━━━━━━━━━━━
   ┠⊷️ *${prefix}Arti (Nombre)*
   ┃ _Significado de tu nombre_
   ┠⊷️ *${prefix}Couple (Nombre & Nombre)*
@@ -846,16 +845,16 @@ _*Recuerda leer las normas de la descripción.*_
   ┃ _Signo zodiaco_
   ┠⊷️ *${prefix}Artimimpi (Texto)*
   ┃ _Significado de tus sueños_
-  ┗━━━━━━━━━━━━━━━━━━━━
+  ┗━━━━━━━━━━━━━━━━━━━
   *〘 TIEMPO 〙*
-  ┏━━━━━━━━━━━━━━━━━━━━
+  ┏━━━━━━━━━━━━━━━━━━━
   ┠⊷️ *${prefix}Cuaca (Área)*
   ┃ _Información meteorológica_
   ┠⊷️ *${prefix}Infogempa*
   ┃ _Información de terremotos recientes_
-  ┗━━━━━━━━━━━━━━━━━━━━
+  ┗━━━━━━━━━━━━━━━━━━━
   *〘 DESCARGAS 〙*
-  ┏━━━━━━━━━━━━━━━━━━━━
+  ┏━━━━━━━━━━━━━━━━━━━
   ┠⊷️ *${prefix}Ytmp3 (Link)*
   ┃ _Descargar audios de YT, es mejor con play_
   ┠⊷️ *${prefix}Ytmp4 (Link)*
@@ -872,9 +871,9 @@ _*Recuerda leer las normas de la descripción.*_
   ┃ _Descargar Pinterest_
   ┠⊷️ *${prefix}Joox (Canción)
   ┃ _Descargar canciones_
-  ┗━━━━━━━━━━━━━━━━━━━━
+  ┗━━━━━━━━━━━━━━━━━━━
   *〘 DUEÑO 〙*
-  ┏━━━━━━━━━━━━━━━━━━━━
+  ┏━━━━━━━━━━━━━━━━━━━
   ┠⊷️ *${prefix}Clone*
   ┃ _Clonacion de perfil_
   ┠⊷️ *${prefix}Block*
@@ -885,7 +884,7 @@ _*Recuerda leer las normas de la descripción.*_
   ┃ _Anuncio_
   ┠⊷️ *${prefix}Blocklist*
   ┃ _Lista de usuarios bloqueados_
-  ┗━━━━━━━━━━━━━━━━━━━━`,
+  ┗━━━━━━━━━━━━━━━━━━━`,
   
   contextInfo: {
 	mentionedJid: [sender]
@@ -975,7 +974,9 @@ _*Recuerda leer las normas de la descripción.*_
 	uptime = process.uptime()
 	teks = `*‣ Nombre del bot* : ${me.name}
 	‣ *Número del bot* : @${me.jid.split('@')[0]}
-	‣ *Dueño* : Mr.Pato
+	‣ *Dueños* : L̴͕̰̠̤̃̒̒ḛ̵̠̟̠͆̓̎n̴̘͈͊͛͗͝a̶̛͓͊ A̵n̴o̶n̷y̶m̸i̶s̴s̶
+                       ☦⪻̤̈N̴͖e̵͠b̷̛̈́á̴̬̌l̶͐́o̸͡⪼̤̈☦
+⠀⠀⠀   ⠀             ☦⪻̤̈M̸̞̱̜͒̈͑̐̈́̇•̴̻̖̼͓͈̀̈́̈̓̍̔̚ͅT̴̤̩̀͑̄͗̒͑̕ḩ̸͇͔̑͒́͌̄e̷̙̱̎•̷̔̓̉̽̑̕̕H̶͔̰͑å̷͙̹̾͝͝ť̵̎͐́̏̒̈ë̶̛͖͓̙͎́́ṛ̷̊̊⪼̤̈☦̤̈
 	‣ *Prefijo* : ${prefix}
 	‣ *Usuarios bloqueados* : ${blocked.length}
 	‣ *Tiempo activo* : ${kyun(uptime)}
@@ -995,7 +996,7 @@ _*Recuerda leer las normas de la descripción.*_
   const latensi = speed() - timestamp
   Lxa.updatePresence(from, Presence.composing)
   uptime = process.uptime()
-  Lxa.sendMessage(from, `*El bot responde en*\n‣ *Speed* : ${latensi.toFixed(4)} _Segundos_\n\n*Info bot*\n‣ *Total de chats* : ${totalchat.length}\n‣ *Total de usuarios* : ${_registered.length}\n‣ *Bloqueados* : ${blocked.length}\n‣ *Tiempo activo* : ${kyun(uptime)}`, text, {
+  Lxa.sendMessage(from, `*Tiempo de respuesta*\n‣ *Speed* : ${latensi.toFixed(4)} _Segundos_\n\n*Info bot*\n‣ *Total de chats* : ${totalchat.length}\n‣ *Total de usuarios* : ${_registered.length}\n‣ *Bloqueados* : ${blocked.length}\n‣ *Tiempo activo* : ${kyun(uptime)}`, text, {
 	quoted: mek
   })
   break
@@ -1006,7 +1007,7 @@ _*Recuerda leer las normas de la descripción.*_
   if (!isRegister) return reply(mess.only.daftarB)
   hasil = `
   
-  _Este bot es gratis :)_
+  _Este bot no se comparte :)_
   
   *Pulsa :* _${Pulsa}_
   *Dana :* _${Dana}_
@@ -1146,7 +1147,7 @@ _*Recuerda leer las normas de la descripción.*_
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-	quoted: mek, caption: `Mr.Pato-Bot`
+	quoted: mek, caption: `Bot ACTIVOS 24/7`
   })
   
   } catch {
@@ -3314,7 +3315,7 @@ _*Recuerda leer las normas de la descripción.*_
 	teks += `┃ @${mem.jid.split('@')[0]}\n`
 	members_id.push(mem.jid)
   }
-  mentions('〘  *TAGALL* 〙\n┏━━━━━━━━━━━━━━━━━━━━\n┠⊷'+teks+'┃━━━━━━━━━━━━━━━━━━━━\n┃────𝕸𝖗.𝕻𝖆𝖙𝖔 -𝕭𝖔𝖙⚜️🦆────\n┗━━━━━━━━━━━━━━━━━━━━', members_id, true)
+  mentions('〘  *TAGALL* 〙\n┏━━━━━━━━━━━━━━━━━━━━\n┠⊷'+teks+'┃━━━━━━━━━━━━━━━━━━━━\n┃────ACTIVOS 24/7────\n┗━━━━━━━━━━━━━━━━━━━━', members_id, true)
   break
   
   
@@ -3441,7 +3442,7 @@ _*Recuerda leer las normas de la descripción.*_
 						  mentions(teks, mentioned, true)
 						  Lxa.groupRemove(from, mentioned)
 					  } else {
-						  mentions(`Se elimino a un joto : @${mentioned[0].split('@')[0]}`, mentioned, true)
+						  mentions(`ELIMINADO POR INCUMPLIMIENTO : @${mentioned[0].split('@')[0]}`, mentioned, true)
 						  Lxa.groupRemove(from, mentioned)
 					  }
 					  break
@@ -3451,7 +3452,7 @@ _*Recuerda leer las normas de la descripción.*_
 					case 'listadmin':
 					  case 'adminlist':
 					  if (!isGroup) return reply(mess.only.group)
-					  teks = `Lista admin de admins facheros *${groupMetadata.subject}*\nTotal : ${groupAdmins.length}\n\n`
+					  teks = `Lista admin de admins *${groupMetadata.subject}*\nTotal : ${groupAdmins.length}\n\n`
 					  no = 0
 					  for (let admon of groupAdmins) {
 						  no += 1
@@ -3610,7 +3611,7 @@ _*Recuerda leer las normas de la descripción.*_
 	if (!isBotGroupAdmins) return reply(mess.only.Badmin)
 	var nomor = mek.participant
 	const close = {
-  text: `Grupo cerrado por @${nomor.split("@s.whatsapp.net")[0]}\n ahora solo los admins facheros pueden escribir`,
+  text: `Grupo cerrado por @${nomor.split("@s.whatsapp.net")[0]}\n ahora solo los admins pueden escribir, EL CIERRE ES TEMPORAL O PARA COMUNICADOS O POR SEGURIDAD DEL GRUPO`,
   contextInfo: {
 	mentionedJid: [nomor]
   }
