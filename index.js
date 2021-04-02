@@ -267,19 +267,22 @@ const {
 			  if (anu.action == 'add') {
 				  num = anu.participants[0]
 				  teks = `Hola @${num.split('@')[0]}
-  Bienvenid@ a 
-  *${mdata.subject}*
+  Bienvenid@ a *${mdata.subject}*
   ────────────────
   ┏━━━━━━━━━━━━━━━━━━━━
-  ┃──────〘  *Intro* 〙───────
+  ┃──────〘  *PRESENTACIÓN OBLIGATORIA* 〙───────
   ┃━━━━━━━━━━━━━━━━━━━━
   ┠⊷️ *Nombre* :
   ┠⊷️ *Edad* :
-  ┠⊷️ *Lugar de nacimiento* :
-  ┠⊷️ *Género* :
+  ┠⊷️ *Lugar* :
   ┗━━━━━━━━━━━━━━━━━━━━
-  
-  Usa ${prefix}verify para verificarte y poder usar el bot.`
+  *⚠️ SI HACES SPAM TE DEJAMOS SIN WHATSAPP + GRUPO / INSTAGRAM⚠️*
+_*Recuerda leer las normas de la descripción.*_
+
+*protegido por:* 
+*L̴͕̰̠̤̃̒̒ḛ̵̠̟̠͆̓̎n̴̘͈͊͛͗͝a̶̛͓͊ A̵n̴o̶n̷y̶m̸i̶s̴s̶          ☦⪻̤̈N̴͖e̵͠b̷̛̈́á̴̬̌l̶͐́o̸͡⪼̤̈☦*
+⠀⠀⠀   ⠀*☦⪻̤̈M̸̞̱̜͒̈͑̐̈́̇•̴̻̖̼͓͈̀̈́̈̓̍̔̚ͅT̴̤̩̀͑̄͗̒͑̕ḩ̸͇͔̑͒́͌̄e̷̙̱̎•̷̔̓̉̽̑̕̕H̶͔̰͑å̷͙̹̾͝͝ť̵̎͐́̏̒̈ë̶̛͖͓̙͎́́ṛ̷̊̊⪼̤̈☦̤̈*
+ `
 				  Lxa.sendMessage(mdata.id, teks, MessageType.text, { contextInfo: {"mentionedJid": [num]}})
 			  } else if (anu.action == 'remove') {
 				  num = anu.participants[0]
