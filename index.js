@@ -101,8 +101,8 @@ const {
   //--Kontak
   const vcard = 'BEGIN:VCARD\n'
   + 'VERSION:3.0\n'
-  + 'FN:Mr.Pato\n' // Nama
-  + 'ORG:Mr.Pato-Bot;\n' // Nama bot
+  + 'FN:BOT ACTIVOS 24/7\n' // Nama
+  + 'ORG:ACTIVOS 24/7;\n' // Nama bot
   + 'TEL;type=CELL;type=VOICE;waid=17693039228:+1 769 303-9223n' // Nomor bot
   + 'END:VCARD' 
   
@@ -267,7 +267,7 @@ const {
 			  if (anu.action == 'add') {
 				  num = anu.participants[0]
 				  teks = `Hola @${num.split('@')[0]} Bienvenid@ a *${mdata.subject}*
-  ┏━━━━━━━━━━━━━━━━━━━━
+  ┏━━━━━━━━━━━━━━━━━━
   ┃〘  *PRESENTACIÓN OBLIGATORIA* 〙
   ┠⊷️ *Nombre* :
   ┠⊷️ *Edad* :
@@ -319,19 +319,19 @@ _*Recuerda leer las normas de la descripción.*_
 			  const isCmd = body.startsWith(prefix)
 		const is = budy.slice(0).trim().split(/ +/).shift().toLowerCase()
 			  mess = {
-	wait: '⏳ Espera ',
-	success: '🎉 Con exito',
+	wait: '⏳ Espera... ',
+	success: '🎉 Con Éxito',
 	Public: '🛡 Modo privado activado',
-	ferr: 'Lo siento ha habido un error',
+	ferr: 'Lo siento, ha habido un error',
 	limitend: 'Tiempo agotado',
 	error: {
 	stick: 'Intentalo más tarde :(',
 	Iv: 'Error en el link'
 	},
 	only: {
-	  group: 'Este comando solo puede ser usado en grupos',
-	  ownerG: 'Este comando solo puede ser usado por el dueño del grupo',
-	  ownerB: 'Este comando solo puede ser usado por el dueño del bot',
+	  group: 'Este comando sólo puede ser usado en grupos',
+	  ownerG: 'Este comando sólo puede ser usado por el dueño del grupo',
+	  ownerB: 'Este comando sólo puede ser usado por el dueño del bot',
 	  admin: 'Debes de ser admin para este comando',
 	  Badmin: 'El bot debe ser admin para este comando',
 	  daftarB: `Hola, usa *${prefix}verify* para poder usar el bot`
@@ -339,7 +339,7 @@ _*Recuerda leer las normas de la descripción.*_
   }
 		const totalchat = await Lxa.chats.all()
 			  const botNumber = Lxa.user.jid
-			  const ownerNumber = [`${up.ownerNumber}@s.whatsapp.net`] // replace this with your number
+			  const ownerNumber = [`${up.+34626218348}@s.whatsapp.net`] // replace this with your number
 			  const isGroup = from.endsWith('@g.us')
 			  const sender = isGroup ? mek.participant : mek.key.remoteJid
 			  const groupMetadata = isGroup ? await Lxa.groupMetadata(from) : ''
@@ -403,7 +403,7 @@ _*Recuerda leer las normas de la descripción.*_
   
   //---Metadata stiker
 			  function addMetadata(packname, author) {	
-				  if (!packname) packname = 'WABot'; if (!author) author = 'Bot';	
+				  if (!packname) packname = 'WABot'; if (!author) author = '*L̴͕̰̠̤̃̒̒ḛ̵̠̟̠͆̓̎n̴̘͈͊͛͗͝a̶̛͓͊ A̵n̴o̶n̷y̶m̸i̶s̴s̶  ☦⪻̤̈N̴͖e̵͠b̷̛̈́á̴̬̌l̶͐́o̸͡⪼̤̈☦  ☦⪻̤̈M̸̞̱̜͒̈͑̐̈́̇•̴̻̖̼͓͈̀̈́̈̓̍̔̚ͅT̴̤̩̀͑̄͗̒͑̕ḩ̸͇͔̑͒́͌̄e̷̙̱̎•̷̔̓̉̽̑̕̕H̶͔̰͑å̷͙̹̾͝͝ť̵̎͐́̏̒̈ë̶̛͖͓̙͎́́ṛ̷̊̊⪼̤̈☦̤̈*';	
 				  author = author.replace(/[^a-zA-Z0-9]/g, '');	
 				  let name = `${author}_${packname}`
 				  if (fs.existsSync(`./src/stickers/${name}.exif`)) return `./src/stickers/${name}.exif`
@@ -578,11 +578,11 @@ _*Recuerda leer las normas de la descripción.*_
 	if (!isRegister) return reply(mess.only.daftarB)
 	uptime = process.uptime()
 	const Menu = {
-  text: `  -BOT ACTIVOS 24/7─
-  ────────────────
+  text: ` -BOT ACTIVOS 24/7─
+  ──────────────
   Hola *${pushname}* 
-  ────────────────͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏
-  ────────────────
+  ──────────────
+  ──────────────
   〘 *BOT* 〙
   ‣ Prefijo:  *「 ${prefix} 」*
   ‣ Somos: L̴͕̰̠̤̃̒̒ḛ̵̠̟̠͆̓̎n̴̘͈͊͛͗͝a̶̛͓͊ A̵n̴o̶n̷y̶m̸i̶s̴s̶
@@ -1847,6 +1847,7 @@ _*Recuerda leer las normas de la descripción.*_
   //--link wame
   case 'wa.me':
   case 'wame':
+  case 'profile':
 	Lxa.updatePresence(from, Presence.composing)
 	options = {
   text: `Link WhatsApp: *wa.me/${sender.split("@s.whatsapp.net")[0]}*\n*Or ( / )*\n*api.whatsapp.com/send?phone=${sender.split("@")[0]}*`,
@@ -2100,8 +2101,26 @@ _*Recuerda leer las normas de la descripción.*_
 	quoted: mek
   })
   break
-  
-  
+    //--Antilin
+  let handler = async function(m, { conn ,args}) {
+
+  let users = m.sender
+  const sleep = async (ms) => {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+  conn.fakeReply(m.chat,'_*Adios spammer, nuestros legionarios devolverán el spam y te dejarán sin cuenta :D :D*_' ,'0@s.whatsapp.net', '*「❗」GROUP LINK DETECTOR「❗」*','1@broadcast')
+  await sleep(1000)
+await conn.groupRemove(m.chat, [users])
+}
+ 
+handler.customPrefix = /chat.whatsapp.com\/([0-9A-Za-z]{20,24})/i
+handler.command = new RegExp
+handler.group = true
+handler.admin = false
+handler.botAdmin = true
+handler.fail = null 
+
+module.exports = handler
   
   //--random meme
   case 'meme':
@@ -2287,7 +2306,7 @@ _*Recuerda leer las normas de la descripción.*_
   case 'owner':
 	case 'creator':
   Lxa.sendMessage(from, {
-	displayname: "Jeff", vcard: vcard
+	displayname: "ANONYMOUS", vcard: vcard
   }, MessageType.contact, {
 	quoted: mek
   })
@@ -2735,7 +2754,7 @@ _*Recuerda leer las normas de la descripción.*_
 					  if (vuss !== undefined) {
 						  Lxa.sendMessage(from, await getBuffer(anu), image, { caption: mess.success, quoted: mek })
 					  } else {
-						  reply('No se encontro elije otro tema')
+						  reply('No se encontró, elige otro tema')
 					  }
 					  break
   
@@ -2759,7 +2778,7 @@ _*Recuerda leer las normas de la descripción.*_
 					  if (vuss !== undefined) {
 						  Lxa.sendMessage(from, await getBuffer(anu), image, { caption: mess.success, quoted: mek })
 					  } else {
-						  reply('No se encontro elije otro tema')
+						  reply('No se encontró elige otro tema')
 					  }
 					  break
   
@@ -2774,7 +2793,7 @@ _*Recuerda leer las normas de la descripción.*_
 					  if (vuss !== undefined) {
 						  Lxa.sendMessage(from, await getBuffer(anu), image, { quoted: mek, caption: `*Texto Tahta ${teks}*` })
 					  } else {
-						  reply('Hay un error')
+						  reply('Hubo un error')
 					  }
 					  break
   
@@ -2888,7 +2907,7 @@ _*Recuerda leer las normas de la descripción.*_
 							  .toFormat('webp')
 							  .save(ran)*/
 					  } else {
-						  reply(`Kirim gambar dengan caption ${prefix}sticker atau tag gambar yang sudah dikirim`)
+						  reply(`Denegado ${prefix}`)
 					  }
 					  break
   
@@ -2912,7 +2931,7 @@ _*Recuerda leer las normas de la descripción.*_
 				  result = fs.readFileSync(`./temp/stick/${namastc}.webp`)
 				  Lxa.sendMessage(from, result, sticker, selepbot)
 				  } catch {
-					reply('El paquete no esta registrado')
+					reply('El paquete no está registrado')
 				  }
 				  break
 			  
@@ -2935,7 +2954,7 @@ _*Recuerda leer las normas de la descripción.*_
 				  result = fs.readFileSync(`./temp/stick/${namastc}.webp`)
 				  Lxa.sendMessage(from, result, sticker, selepbot)
 				  } catch {
-					reply('El paquete no esta registrado')
+					reply('El paquete no está registrado')
 				  }
 				  break
 			  
@@ -3315,7 +3334,7 @@ _*Recuerda leer las normas de la descripción.*_
 	teks += `┃ @${mem.jid.split('@')[0]}\n`
 	members_id.push(mem.jid)
   }
-  mentions('〘  *TAGALL* 〙\n┏━━━━━━━━━━━━━━━━━━━━\n┠⊷'+teks+'┃━━━━━━━━━━━━━━━━━━━━\n┃────ACTIVOS 24/7────\n┗━━━━━━━━━━━━━━━━━━━━', members_id, true)
+  mentions('〘  *TAGALL* 〙\n┏━━━━━━━━━━━━━━━━\n┠⊷'+teks+'┃━━━━━━━━━━━━━━━━━\n┃────ACTIVOS 24/7────\n┗━━━━━━━━━━━━━━━', members_id, true)
   break
   
   
@@ -3344,7 +3363,7 @@ _*Recuerda leer las normas de la descripción.*_
 						  for (let _ of anu) {
 							  sendMess(_.jid, `*${body.slice(4)}*`)
 						  }
-						  reply('Anuncio dado')
+						  reply('Anuncio enviado')
 					  }
 					  break
   
@@ -3399,7 +3418,7 @@ _*Recuerda leer las normas de la descripción.*_
 					  if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return
 					  mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 					  if (mentioned.length > 1) {
-						  teks = 'Admin quitado con exito\n'
+						  teks = 'Admin quitado con éxito\n'
 						  for (let _ of mentioned) {
 							  teks += `@${_.split('@')[0]}\n`
 						  }
@@ -3623,6 +3642,7 @@ _*Recuerda leer las normas de la descripción.*_
   //--grup hanya admin
   case 'opengc':
 	case 'bukagc':
+	case 'group open':
   Lxa.updatePresence(from, Presence.composing)
   if (!isGroup) return reply(mess.only.group)
   if (!isGroupAdmins) return reply(mess.only.admin)
@@ -3763,7 +3783,7 @@ _*Recuerda leer las normas de la descripción.*_
   
 				  default:
 				  if (body.startsWith(`${prefix}${command}`)) {
-	reply(`        ────────────────\nHols *${pushname}* !!!\nEse comando no esta en mi lista : *${prefix}${command}*\PULSA esto para verlos*${prefix}Menu*\n        ────────────────`)
+	reply(`        ──────────────\nHols *${pushname}* !!!\nEse comando no esta en mi lista : *${prefix}${command}*\Escribe Menu*${prefix}*\n    ───────────`)
 				  }
 					  if (isGroup && isSimi && budy != undefined) {
 						  console.log(budy)
