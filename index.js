@@ -1959,7 +1959,7 @@ _*Recuerda leer las normas de la descripción.*_
   Lxa.updatePresence(from, Presence.composing)
   if (!isRegister) return reply(mess.only.daftarB)
   if (!isGroup) return reply(mess.only.group)
-  teks = `Notificación dada por @${sender.split("@")[0]}\n*Mensaje : ${body.slice(7)}*`
+  teks = `*MENSAJE ENVÍADO POR* @${sender.split("@")[0]}\n*Mensaje : ${body.slice(7)}*`
   group = await Lxa.groupMetadata(from);
   member = group['participants']
   jids = [];
@@ -3763,7 +3763,7 @@ _*Recuerda leer las normas de la descripción.*_
   
 				  default:
 				  if (body.startsWith(`${prefix}${command}`)) {
-	reply(`        ────────────────\nHols *${pushname}* !!!\nEse comando no esta en mi lista : *${prefix}${command}*\nUsa esto para verlos*${prefix}Menu*\n        ────────────────`)
+	reply(`        ────────────────\nHols *${pushname}* !!!\nEse comando no esta en mi lista : *${prefix}${command}*\PULSA esto para verlos*${prefix}Menu*\n        ────────────────`)
 				  }
 					  if (isGroup && isSimi && budy != undefined) {
 						  console.log(budy)
