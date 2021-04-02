@@ -325,10 +325,10 @@ _*Recuerda leer las normas de la descripción.*_
 	wait: '⏳ Espera ',
 	success: '🎉 Con exito',
 	Public: '🛡 Modo privado activado',
-	ferr: 'Lo siento ocurrio un error',
-	limitend: 'El tiempo se agoto',
+	ferr: 'Lo siento ha habido un error',
+	limitend: 'Tiempo agotado',
 	error: {
-	stick: 'Intentalo al rato :(',
+	stick: 'Intentalo más tarde :(',
 	Iv: 'Error en el link'
 	},
 	only: {
@@ -601,7 +601,7 @@ _*Recuerda leer las normas de la descripción.*_
   _${Ig}_
   ────────────────
   ┏━━━━━━━━━━━━━━━━━━━━
-  ┃─────〘 𝕸𝖗.𝕻𝖆𝖙𝖔 -𝕭𝖔𝖙⚜️🦆 〙────
+  ┃─────〘 BOT ACTIVOS 24/7 〙────
   ┃━━━━━━━━━━━━━━━━━━━━
   ┠⊷️ *${prefix}Simi (Teks)*
   ┃ _Simsimi Chat_
@@ -617,7 +617,7 @@ _*Recuerda leer las normas de la descripción.*_
   ┏━━━━━━━━━━━━━━━━━━━━
   ┃─────〘  *List menu* 〙─────
   ┗━━━━━━━━━━━━━━━━━━━━
-  *〘 GRUP 〙*
+  *〘 GRUPO 〙*
   ┏━━━━━━━━━━━━━━━━━━━━
   ┠⊷️ *${prefix}Listadmin*
   ┃ _Lista de los admin_
@@ -652,7 +652,7 @@ _*Recuerda leer las normas de la descripción.*_
   ┠⊷️ *${prefix}Delete*
   ┃ _Eliminar mensaje del bot_
   ┗━━━━━━━━━━━━━━━━━━━━
-  *〘 FUN 〙*
+  *〘 DIVERSIÓN 〙*
   ┏━━━━━━━━━━━━━━━━━━━━
   ┠⊷️ *${prefix}Alay (Texto)*
   ┃ _Font Alay_
@@ -694,7 +694,7 @@ _*Recuerda leer las normas de la descripción.*_
   ┠⊷️ *${prefix}listvid*
   ┃ _Lista de videos_
   ┗━━━━━━━━━━━━━━━━━━━━
-  *〘 EDITING 〙*
+  *〘 EDICIÓN 〙*
   ┏━━━━━━━━━━━━━━━━━━━━
   ┠⊷️ *${prefix}Gtav (Foto)*
   ┃ _Convierte foto al estilo Gtav_
@@ -720,7 +720,7 @@ _*Recuerda leer las normas de la descripción.*_
   ┠⊷️ *${prefix}Neko*
   ┃ _Imagen aleatoria de neko_
   ┗━━━━━━━━━━━━━━━━━━━━
-  *〘 GAME 〙*
+  *〘 JUEGOS 〙*
   ┏━━━━━━━━━━━━━━━━━━━━
   ┠⊷️ *${prefix}Tebakgambar*
   ┃ _Adivinanza de imagen_
@@ -745,7 +745,7 @@ _*Recuerda leer las normas de la descripción.*_
   ┠⊷ *${prefix}Gantengcek (Texto)*
   ┠⊷ *${prefix}Cantikcek (Texto)*
   ┗━━━━━━━━━━━━━━━━━━━━
-  *〘 TOOLS 〙*
+  *〘 HERRAMIENTAS 〙*
   ┏━━━━━━━━━━━━━━━━━━━━
   ┠⊷️ *${prefix}Tomp3*
   ┃ _Audio de video_
@@ -876,7 +876,7 @@ _*Recuerda leer las normas de la descripción.*_
   ┠⊷️ *${prefix}Joox (Canción)
   ┃ _Descargar canciones_
   ┗━━━━━━━━━━━━━━━━━━━━
-  *〘 OWNER 〙*
+  *〘 DUEÑO 〙*
   ┏━━━━━━━━━━━━━━━━━━━━
   ┠⊷️ *${prefix}Clone*
   ┃ _Clonacion de perfil_
