@@ -3648,7 +3648,7 @@ module.exports = handler
   if (!isGroupAdmins) return reply(mess.only.admin)
   if (!isBotGroupAdmins) return reply(mess.only.Badmin)
   open = {
-	text: `Grupo abierto por @${sender.split("@")[0]}\n ahora todos pueden usar el bot`,
+	text: `Grupo abierto por @${sender.split("@")[0]}\n ahora todos podéis escribir`,
 	contextInfo: {
   mentionedJid: [sender]
 	}
