@@ -2101,9 +2101,19 @@ _*Recuerda leer las normas de la descripción.*_
 	quoted: mek
   })
   break
-    //--Antilin
+    //--Antilink
   let handler = async function(m, { conn ,args}) {
-
+ if (Number(args[0]) === 1) {
+						  if (Antilink) return reply('Ya está activo')
+						  antilink.push(from)
+						  fs.writeFileSync('./data/welkom.json', JSON.stringify(antilink))
+						  reply('Se activó con éxito')
+					  } else if (Number(args[0]) === 0) {
+						  antilink.splice(from, 1)
+						  fs.writeFileSync('./data/antilink.json', JSON.stringify(antilink))
+						  reply('Se desactivó con éxito')
+					  } else {
+						  reply('1 para activar, 0 desactivar')
   let users = m.sender
   const sleep = async (ms) => {
     return new Promise(resolve => setTimeout(resolve, ms));
@@ -2459,7 +2469,7 @@ module.exports = handler
 	try {
   ppimg = await Lxa.getProfilePicture(`${sender.split('@')[0]}@c.us`)
 	} catch {
-  ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
+  ppimg = ''
 	}
 	teks = `‣ *Nombre* : ${pushname}
 	‣ *Número* : ${sender.split("@")[0]}
@@ -3624,6 +3634,7 @@ module.exports = handler
   
   //--grup semua peserta
   case 'closegc':
+	case 'group close':
 	Lxa.updatePresence(from, Presence.composing)
 	if (!isGroup) return reply(mess.only.group)
 	if (!isGroupAdmins) return reply(mess.only.admin)
@@ -3737,10 +3748,10 @@ module.exports = handler
 					  if (!isGroupAdmins) return reply(mess.only.admin)
 					  if (args.length < 1) return reply('Hmmmm')
 					  if (Number(args[0]) === 1) {
-						  if (isWelkom) return reply('Ya esta activo')
+						  if (isWelkom) return reply('Ya está activo')
 						  welkom.push(from)
 						  fs.writeFileSync('./data/welkom.json', JSON.stringify(welkom))
-						  reply('Se activo con exito')
+						  reply('Se activó con éxito')
 					  } else if (Number(args[0]) === 0) {
 						  welkom.splice(from, 1)
 						  fs.writeFileSync('./data/welkom.json', JSON.stringify(welkom))
